@@ -1,0 +1,12 @@
+Source: ros-groovy-rocon-msgs
+Section: misc
+Priority: extra
+Maintainer: Daniel Stonier <d.stonier@gmail.com>, Jihoon Lee <jihoonl@rnd.yujinrobot.com>, Piyush Khandelwal <piyushk@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~), 
+Homepage: http://www.ros.org/wiki/rocon_msgs
+Standards-Version: 3.9.2
+
+Package: ros-groovy-rocon-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-groovy-rocon-app-manager-msgs,ros-groovy-concert-msgs,ros-groovy-rocon-demo-msgs,ros-groovy-gateway-msgs
+Description: Communication types (msgs/srvs/actions) for robotics in concert (aka multimaster).
