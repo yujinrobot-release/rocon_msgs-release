@@ -1,0 +1,12 @@
+Source: ros-groovy-concert-msgs
+Section: misc
+Priority: extra
+Maintainer: Daniel Stonier <d.stonier@gmail.com>, Jihoon Lee <jihoonlee.in@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-groovy-catkin, ros-groovy-message-generation, ros-groovy-rocon-app-manager-msgs, ros-groovy-std-msgs, ros-groovy-zeroconf-msgs
+Homepage: http://www.ros.org/wiki/concert_msgs
+Standards-Version: 3.9.2
+
+Package: ros-groovy-concert-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-groovy-message-runtime, ros-groovy-rocon-app-manager-msgs, ros-groovy-std-msgs, ros-groovy-zeroconf-msgs
+Description: Shared communication types for the concert framework.
