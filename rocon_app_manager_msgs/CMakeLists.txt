@@ -18,11 +18,7 @@ find_package(catkin REQUIRED COMPONENTS genmsg)
 add_message_files(
   DIRECTORY msg
   FILES
-  KeyValue.msg
-  PairingClient.msg
-  Icon.msg
-  App.msg
-  AppList.msg
+  AppDescription.msg
   Constants.msg
   ErrorCodes.msg
   Remapping.msg

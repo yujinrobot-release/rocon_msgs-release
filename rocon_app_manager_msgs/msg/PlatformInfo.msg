@@ -25,4 +25,3 @@ string platform
 string system
 string robot
 string name
-Icon icon
