@@ -1,0 +1,12 @@
+Source: ros-hydro-concert-msgs
+Section: misc
+Priority: extra
+Maintainer: "Daniel Stonier <d.stonier@gmail.com>, Jihoon Lee <jihoonlee.in@gmail.com>"
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-catkin, ros-hydro-message-generation, ros-hydro-rocon-app-manager-msgs, ros-hydro-std-msgs
+Homepage: http://www.ros.org/wiki/concert_msgs
+Standards-Version: 3.9.2
+
+Package: ros-hydro-concert-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-message-runtime, ros-hydro-rocon-app-manager-msgs, ros-hydro-std-msgs
+Description: Shared communication types for the concert framework.
