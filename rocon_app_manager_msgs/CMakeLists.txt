@@ -18,7 +18,11 @@ find_package(catkin REQUIRED COMPONENTS genmsg)
 add_message_files(
   DIRECTORY msg
   FILES
-  AppDescription.msg
+  KeyValue.msg
+  PairingClient.msg
+  Icon.msg
+  App.msg
+  AppList.msg
   Constants.msg
   ErrorCodes.msg
   Remapping.msg
@@ -32,6 +36,7 @@ add_service_files(
   GetPlatformInfo.srv
   Init.srv
   Invite.srv
+  SimpleInvite.srv
   StartApp.srv
   Status.srv
   StopApp.srv
