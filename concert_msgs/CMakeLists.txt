@@ -10,9 +10,8 @@ project(concert_msgs)
 ##############################################################################
 
 find_package(catkin REQUIRED COMPONENTS 
-    message_generation 
-    std_msgs
-    rocon_std_msgs
+    genmsg 
+    std_msgs 
     rocon_app_manager_msgs
 )
 
@@ -32,16 +31,12 @@ add_message_files(
   LinkEdge.msg
   LinkGraph.msg
   LinkNode.msg
-  RemoconApp.msg
-  RoleAppList.msg
-  Roles.msg
 )
 
 add_service_files(
   DIRECTORY srv
   FILES
   ClientList.srv
-  GetRolesAndApps.srv
   Invite.srv
   StartSolution.srv
   StopSolution.srv
@@ -49,7 +44,6 @@ add_service_files(
 
 generate_messages(DEPENDENCIES
     std_msgs 
-    rocon_std_msgs
     rocon_app_manager_msgs
 )
 
@@ -57,9 +51,4 @@ generate_messages(DEPENDENCIES
 # Package
 ##############################################################################
 
-catkin_package(CATKIN_DEPENDS 
-                   message_runtime
-                   std_msgs
-                   rocon_std_msgs
-                   rocon_app_manager_msgs
-               )
+catkin_package(CATKIN_DEPENDS message_runtime std_msgs rocon_app_manager_msgs)
