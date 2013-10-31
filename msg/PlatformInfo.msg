@@ -25,4 +25,4 @@ string platform
 string system
 string robot
 string name
-rocon_std_msgs/Icon icon
+Icon icon
