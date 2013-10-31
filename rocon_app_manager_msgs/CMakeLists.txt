@@ -9,7 +9,7 @@ project(rocon_app_manager_msgs)
 # Dependencies
 ##############################################################################
 
-find_package(catkin REQUIRED COMPONENTS message_generation rocon_std_msgs)
+find_package(catkin REQUIRED COMPONENTS genmsg)
 
 ##############################################################################
 # Messgaes
@@ -18,11 +18,14 @@ find_package(catkin REQUIRED COMPONENTS message_generation rocon_std_msgs)
 add_message_files(
   DIRECTORY msg
   FILES
+  KeyValue.msg
   PairingClient.msg
+  Icon.msg
   App.msg
   AppList.msg
   Constants.msg
   ErrorCodes.msg
+  Remapping.msg
   PlatformInfo.msg
 )
 
@@ -39,10 +42,10 @@ add_service_files(
   StopApp.srv
 )
 
-generate_messages(DEPENDENCIES rocon_std_msgs)
+generate_messages(DEPENDENCIES)
 
 ##############################################################################
 # Package
 ##############################################################################
 
-catkin_package(CATKIN_DEPENDS message_runtime rocon_std_msgs)
+catkin_package(CATKIN_DEPENDS message_runtime)
