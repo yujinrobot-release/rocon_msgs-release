@@ -2,9 +2,8 @@
 Changelog for package rocon_app_manager_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.6.3 (2013-10-30)
+0.6.4 (2013-10-31)
 ------------------
-* rocon_std_msgs centralises some app manager messages for sharing.
 
 0.6.2 (2013-09-11)
 ------------------
