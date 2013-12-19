@@ -1,3 +1,28 @@
+## rocon_msgs - 0.6.5-0
+
+User `snorri@snorriheim` released the packages in the `rocon_msgs` repository by running `/usr/bin/bloom-release --track hydro --rosdistro hydro rocon_msgs` on `Thu, 19 Dec 2013 13:36:17 -0000`
+
+These packages were released:
+- `concert_msgs`
+- `gateway_msgs`
+- `rocon_app_manager_msgs`
+- `rocon_msgs`
+- `rocon_std_msgs`
+- `scheduler_msgs`
+
+Version of package(s) in repository `rocon_msgs`:
+- rosdistro version: `0.6.4-0`
+- old version: `0.6.4-0`
+- new version: `0.6.5-0`
+
+Versions of tools used:
+- bloom version: `0.4.4`
+- catkin_pkg version: `0.1.19`
+- rosdep version: `0.10.21`
+- rosdistro version: `0.2.13`
+- vcstools version: `0.1.31`
+
+
 ## rocon_msgs - 0.6.4-0
 
 User `jorge@concert` released the packages in the `rocon_msgs` repository by running `/usr/bin/bloom-release --track hydro --rosdistro hydro rocon_msgs` on `Thu, 31 Oct 2013 03:17:41 -0000`
