@@ -1,0 +1,12 @@
+Source: ros-hydro-scheduler-msgs
+Section: misc
+Priority: extra
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-catkin, ros-hydro-message-generation, ros-hydro-rocon-std-msgs, ros-hydro-std-msgs, ros-hydro-uuid-msgs
+Homepage: http://wiki.ros.org/scheduler_msgs
+Standards-Version: 3.9.2
+
+Package: ros-hydro-scheduler-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-message-runtime, ros-hydro-rocon-std-msgs, ros-hydro-std-msgs, ros-hydro-uuid-msgs
+Description: Messages used by the rocon scheduler.
