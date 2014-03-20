@@ -11,7 +11,8 @@ project(rocon_std_msgs)
 
 find_package(catkin REQUIRED COMPONENTS 
     genmsg 
-    std_msgs 
+    std_msgs
+    rocon_service_pair_msgs
 )
 
 ##############################################################################
@@ -23,7 +24,10 @@ add_message_files(
   FILES
   Icon.msg
   KeyValue.msg
+  MasterInfo.msg
   PlatformInfo.msg
+  StringArray.msg
+  Strings.msg
   Remapping.msg
 )
 
@@ -33,12 +37,20 @@ add_service_files(
   GetPlatformInfo.srv
 )
 
-generate_messages(DEPENDENCIES
-    std_msgs 
+add_service_pair_files(
+  DIRECTORY pairs
+  FILES
+  Strings.pair
 )
+
+generate_messages(DEPENDENCIES std_msgs rocon_service_pair_msgs)
 
 ##############################################################################
 # Package
 ##############################################################################
 
-catkin_package(CATKIN_DEPENDS message_runtime std_msgs)
+catkin_package(CATKIN_DEPENDS
+    message_runtime
+    std_msgs
+    rocon_service_pair_msgs
+)
