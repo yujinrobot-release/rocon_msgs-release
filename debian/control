@@ -1,0 +1,12 @@
+Source: ros-hydro-rocon-interaction-msgs
+Section: misc
+Priority: extra
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-catkin, ros-hydro-message-generation, ros-hydro-rocon-std-msgs, ros-hydro-uuid-msgs
+Homepage: http://www.ros.org/wiki/rocon_interaction_msgs
+Standards-Version: 3.9.2
+
+Package: ros-hydro-rocon-interaction-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-message-runtime, ros-hydro-rocon-std-msgs, ros-hydro-uuid-msgs
+Description: Messages used by rocon interactions.
