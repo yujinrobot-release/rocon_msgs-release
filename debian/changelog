@@ -1,0 +1,7 @@
+ros-indigo-rocon-service-pair-msgs (0.7.0-0trusty) trusty; urgency=high
+
+  * First release of th service pair message generation infrastructure
+
+ -- Daniel Stonier <d.stonier@gmail.com>  Fri, 28 Mar 2014 15:00:00 -0000
+
+
