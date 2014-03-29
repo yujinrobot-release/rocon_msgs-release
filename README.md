@@ -1,3 +1,33 @@
+## rocon_msgs (indigo) - 0.7.0-0
+
+User `snorri@snorriheim` released the packages in the `rocon_msgs` repository into the `indigo` distro by running `/usr/bin/bloom-release --track indigo --rosdistro indigo rocon_msgs` on `Sat, 29 Mar 2014 14:21:18 -0000`
+
+These packages were released:
+- `concert_msgs`
+- `gateway_msgs`
+- `rocon_annotation_msgs`
+- `rocon_app_manager_msgs`
+- `rocon_interaction_msgs`
+- `rocon_msgs`
+- `rocon_service_msgs`
+- `rocon_service_pair_msgs`
+- `rocon_std_msgs`
+- `rocon_tutorial_msgs`
+- `scheduler_msgs`
+
+Version of package(s) in repository `rocon_msgs`:
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.7.0-0`
+
+Versions of tools used:
+- bloom version: `0.5.2`
+- catkin_pkg version: `0.1.27`
+- rosdep version: `0.10.25`
+- rosdistro version: `0.3.4`
+- vcstools version: `0.1.31`
+
+
 ## rocon_msgs (hydro) - 0.6.9-0
 
 User `snorri@snorriheim` released the packages in the `rocon_msgs` repository into the `hydro` distro by running `/usr/bin/bloom-release --track hydro --rosdistro hydro rocon_msgs` on `Fri, 21 Mar 2014 00:51:47 -0000`
