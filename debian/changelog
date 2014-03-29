@@ -1,0 +1,13 @@
+ros-indigo-rocon-std-msgs (0.7.0-0saucy) saucy; urgency=high
+
+  * major redesign focusing on the orchestration platform prototype.
+
+ -- Daniel Stonier <d.stonier@gmail.com>  Fri, 28 Mar 2014 15:00:00 -0000
+
+ros-indigo-rocon-std-msgs (0.6.3-0saucy) saucy; urgency=high
+
+  * rocon_std_msgs centralises some app manager messages for sharing.
+
+ -- Daniel Stonier <d.stonier@gmail.com>  Tue, 29 Oct 2013 15:00:00 -0000
+
+
