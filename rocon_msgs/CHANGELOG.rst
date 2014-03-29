@@ -1,24 +1,12 @@
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Changelog for package rocon_msgs
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^
+Changelog
+^^^^^^^^^
 
-0.6.8 (2014-03-21)
+0.7.0 (2014-03-29)
 ------------------
-* adding interaction messages and updated scheduler_msgs.
-* Contributors: Daniel Stonier
-
-0.6.7 (2014-01-16)
-------------------
-* first version of service pair messages.
+* Major redesign focusing on the orchestration platform prototype.
 
 0.6.0 (2013-08-07 18:58)
-------------------------
-* 0.5.2
-* 0.5.1
-* removing demo message
-* 0.5.0
-
-0.5.3 (2013-08-07 19:04)
 ------------------------
 * removing demo message
 

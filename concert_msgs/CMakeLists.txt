@@ -10,9 +10,12 @@ project(concert_msgs)
 ##############################################################################
 
 find_package(catkin REQUIRED COMPONENTS 
-    genmsg 
-    std_msgs 
+    gateway_msgs
+    message_generation 
     rocon_app_manager_msgs
+    rocon_std_msgs
+    std_msgs
+    uuid_msgs
 )
 
 ##############################################################################
@@ -23,32 +26,41 @@ add_message_files(
   DIRECTORY msg
   FILES
   ConcertClient.msg
-  ConcertClientConfiguration.msg
   ConcertClients.msg
   Constants.msg
-  Implementation.msg
+  ErrorCodes.msg
   LinkConnection.msg
   LinkEdge.msg
   LinkGraph.msg
   LinkNode.msg
+  ServiceProfile.msg
+  Services.msg
+  Strings.msg
 )
 
 add_service_files(
   DIRECTORY srv
   FILES
-  ClientList.srv
-  Invite.srv
-  StartSolution.srv
-  StopSolution.srv
+  EnableService.srv
 )
 
 generate_messages(DEPENDENCIES
-    std_msgs 
+    gateway_msgs
     rocon_app_manager_msgs
+    rocon_std_msgs
+    std_msgs 
+    uuid_msgs
 )
 
 ##############################################################################
 # Package
 ##############################################################################
 
-catkin_package(CATKIN_DEPENDS message_runtime std_msgs rocon_app_manager_msgs)
+catkin_package(CATKIN_DEPENDS 
+                   gateway_msgs
+                   message_runtime
+                   rocon_app_manager_msgs
+                   rocon_std_msgs
+                   std_msgs
+                   uuid_msgs
+               )

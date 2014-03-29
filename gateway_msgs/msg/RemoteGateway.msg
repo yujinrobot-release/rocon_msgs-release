@@ -1,13 +1,21 @@
 ###### Gateway information ######
 string name
 string ip
-#TODO blocking status,health
+#TODO blocking status
 bool firewall
+
+# Remote Gateway Statistics
+
+# Constants
+int8 WIRED = 1
+int8 WIRELESS = 2
+
+#Connection Statistics
+ConnectionStatistics conn_stats
 
 ###### Public Interface ######
 
 Rule[] public_interface
-
 
 ###### Flipped Interface ######
 

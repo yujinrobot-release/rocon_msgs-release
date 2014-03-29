@@ -1,6 +1,15 @@
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Changelog for package rocon_app_manager_msgs
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^
+Changelog
+^^^^^^^^^
+
+0.7.0 (2014-03-29)
+------------------
+
+ * Major redesign focusing on the orchestration platform prototype.
+
+0.6.3 (2013-10-30)
+------------------
+* rocon_std_msgs centralises some app manager messages for sharing.
 
 0.6.2 (2013-09-11)
 ------------------

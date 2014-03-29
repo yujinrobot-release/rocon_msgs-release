@@ -1,8 +1,13 @@
 Change history
 ==============
 
-0.6.8 (2014-03-21)
+0.7.0 (2014-03-29)
 ------------------
+
+ * Targeted for Indigo Igloo release.
+
+0.6.6 (2014-04-29)
+-------------------
 
  * Revise status labels, removing old ones (`#60`_):
     - ABORTED -> CLOSED

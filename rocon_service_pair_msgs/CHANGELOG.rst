@@ -1,11 +1,8 @@
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Changelog for package rocon_service_pair_msgs
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^
+Changelog
+^^^^^^^^^
 
-0.6.9 (2014-03-21)
+0.7.0 (2014-03-29)
 ------------------
-* bugfix location of install space genpair script.
+* First release of th service pair message generation infrastructure
 
-0.6.7 (2014-01-16)
-------------------
-* first version of service pair messages.

@@ -1,13 +1,14 @@
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Changelog for package gateway_msgs
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^
+Changelog
+^^^^^^^^^
+
+0.7.0 (2014-03-29)
+------------------
+* Changes supporting connectivity and disconnection handling.
 
 0.6.0 (2013-08-07 18:58)
 ------------------------
-* 0.5.2
 * service for configuring the watcher period.
-* 0.5.1
-* 0.5.0
 
 0.5.3 (2013-08-07 19:04)
 ------------------------

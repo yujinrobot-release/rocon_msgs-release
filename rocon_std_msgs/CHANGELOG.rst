@@ -1,13 +1,12 @@
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Changelog for package rocon_std_msgs
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^
+Changelog
+^^^^^^^^^
 
-0.6.8 (2014-03-21)
+0.7.0 (2014-03-29)
 ------------------
-* some string type messages and service pairs.
-* Contributors: Daniel Stonier
+* major redesign focusing on the orchestration platform prototype.
 
-0.6.5 (2013-12-19)
+0.6.3 (2013-10-30)
 ------------------
 * rocon_std_msgs centralises some app manager messages for sharing.
 
