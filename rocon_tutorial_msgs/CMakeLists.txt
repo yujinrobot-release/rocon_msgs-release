@@ -25,12 +25,12 @@ add_service_files(
   GetAvailableResources.srv
 )
 
-add_service_pair_files(
-  DIRECTORY pairs
-  FILES
-  KillTurtle.pair
-  SpawnTurtle.pair
-)
+#add_service_pair_files(
+#  DIRECTORY pairs
+#  FILES
+#  KillTurtle.pair
+#  SpawnTurtle.pair
+#)
 
 generate_messages(DEPENDENCIES rocon_service_pair_msgs)
 
