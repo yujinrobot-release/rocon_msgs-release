@@ -17,6 +17,7 @@ Resource[] resources    # List of requested rapps and platforms
 
 uint8 status            # Current status of this request
 uint8 reason            # Reason for this status
+string problem          # Convenience message for introspecting on the reason 
 
 #  Status value labels:
 uint8 NEW         = 0   # New request for the scheduler
@@ -37,8 +38,7 @@ uint8 PREEMPTED   = 1   # Preempted for higher-priority task
 uint8 BUSY        = 2   # Requested resource busy elsewhere
 uint8 UNAVAILABLE = 3   # Requested resource not available
 uint8 TIMEOUT     = 4   # Lost contact with requester
-uint8 INVALID     = 5   # A general purpose response for ill-formed requests
-                        # (e.g. no resources specified - try to be more specific where possible)
+uint8 INVALID     = 5   # Ill-formed request: see problem string for details
 
 ##############################################################################
 # Scheduling Variables

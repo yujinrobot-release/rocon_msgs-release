@@ -3,7 +3,7 @@
 ##############################################################################
 
 cmake_minimum_required(VERSION 2.8.3)
-project(rocon_service_msgs)
+project(concert_service_msgs)
 
 ##############################################################################
 # Dependencies
@@ -22,13 +22,14 @@ find_package(catkin REQUIRED COMPONENTS
 #add_service_files(
 #  DIRECTORY srv
 #  FILES
-#  GetAvailableResources.srv
 #)
 
 add_service_pair_files(
   DIRECTORY pairs
   FILES
   CaptureTeleop.pair
+  KillTurtle.pair
+  SpawnTurtle.pair
 )
 
 generate_messages(DEPENDENCIES rocon_service_pair_msgs)
