@@ -1,0 +1,15 @@
+ros-indigo-rocon-interaction-msgs (0.7.1-0saucy) saucy; urgency=high
+
+  * get roles moved completely to a service.
+  * int32, not 8
+  * unlimited interactions constant.
+
+ -- Daniel Stonier <d.stonier@gmail.com>  Tue, 08 Apr 2014 15:00:00 -0000
+
+ros-indigo-rocon-interaction-msgs (0.7.0-0saucy) saucy; urgency=high
+
+  * first release, indigo.
+
+ -- Daniel Stonier <d.stonier@gmail.com>  Fri, 28 Mar 2014 15:00:00 -0000
+
+
