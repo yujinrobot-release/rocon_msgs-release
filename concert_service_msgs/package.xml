@@ -1,6 +1,6 @@
 <package>
-  <name>rocon_service_msgs</name>
-  <version>0.7.0</version>
+  <name>concert_service_msgs</name>
+  <version>0.7.1</version>
   <description>
     Messages used by official rocon services.
   </description>

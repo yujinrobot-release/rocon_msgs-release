@@ -42,7 +42,7 @@ string APPLICATION_FRAMEWORK_OPROS=opros
 # Ros
 string APPLICATION_FRAMEWORK_GROOVY=groovy
 string APPLICATION_FRAMEWORK_HYDRO=hydro
-string APPLICATION_FRAMEWORK_IGLOO=igloo
+string APPLICATION_FRAMEWORK_INDIGO=indigo
 string APPLICATION_FRAMEWORK_ROS_OTHER=ros_other
 
 ###### OPERATING SYSTEMS ######
@@ -71,5 +71,5 @@ string OS_KITKAT=kitkat
 ######################## Rocon Export Tags################################
 
 # Package exports used in concert_service_manager and rocon_app_utilities
-string TAG_SERVICE=rocon_service
+string TAG_SERVICE=concert_service
 string TAG_RAPP=rocon_app
