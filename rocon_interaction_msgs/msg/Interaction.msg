@@ -44,6 +44,7 @@ rocon_std_msgs/Remapping[] remappings
 string parameters
 
 # Maximum number of permitted connections (-1 = any)
+int32 UNLIMITED_INTERACTIONS = -1
 int32 max
 
 ###############################################################
