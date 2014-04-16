@@ -1,0 +1,22 @@
+ros-indigo-rocon-device-msgs (0.7.3-0trusty) trusty; urgency=high
+
+  * refactor rocon_devices_msgs -> rocon_device_msgs.
+
+ -- Dongwook Lee <dwlee@yujinrobot.com>  Tue, 15 Apr 2014 15:00:00 -0000
+
+ros-indigo-rocon-device-msgs (0.7.2-0trusty) trusty; urgency=high
+
+  * remove project files, update package version and add rocon_device_mssgs in meta package
+  * create rocon_devices message package and hue controller msg
+  * Contributors: DongWook Lee, Jihoon Lee
+
+ -- Dongwook Lee <dwlee@yujinrobot.com>  Tue, 15 Apr 2014 15:00:00 -0000
+
+ros-indigo-rocon-device-msgs (0.1.0-0trusty) trusty; urgency=high
+
+  * create devices msg
+  * add hue controller msg
+
+ -- Dongwook Lee <dwlee@yujinrobot.com>  Tue, 08 Apr 2014 15:00:00 -0000
+
+
