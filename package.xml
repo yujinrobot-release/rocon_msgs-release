@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rocon_msgs</name>
-  <version>0.7.1</version>
+  <version>0.7.3</version>
   <description>
     Communication types (msgs/srvs/actions) for robotics in concert (aka multimaster).    
   </description>
@@ -31,6 +31,7 @@
   <run_depend>rocon_std_msgs</run_depend>
   <run_depend>rocon_tutorial_msgs</run_depend>
   <run_depend>scheduler_msgs</run_depend>
+  <run_depend>rocon_device_msgs</run_depend>
   
   <export>
     <metapackage/>
