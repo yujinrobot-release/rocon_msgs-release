@@ -1,0 +1,12 @@
+Source: ros-indigo-rocon-device-msgs
+Section: misc
+Priority: extra
+Maintainer: Dongwook Lee <dwlee@yujinrobot.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-indigo-catkin, ros-indigo-message-generation, ros-indigo-std-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-rocon-device-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-message-runtime, ros-indigo-std-msgs
+Description: Messages used by rocon devices
