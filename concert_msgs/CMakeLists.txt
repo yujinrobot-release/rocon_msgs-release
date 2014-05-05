@@ -27,7 +27,8 @@ add_message_files(
   FILES
   ConcertClient.msg
   ConcertClients.msg
-  Constants.msg
+  ConcertClientState.msg
+  ConductorGraph.msg
   ErrorCodes.msg
   LinkConnection.msg
   LinkEdge.msg
