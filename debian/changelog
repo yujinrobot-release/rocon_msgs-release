@@ -1,0 +1,54 @@
+ros-indigo-rocon-msgs (0.7.5-0trusty) trusty; urgency=high
+
+  * graveyarding rocon_annotation_msgs (no longer used).
+
+ -- Daniel Stonier <d.stonier@gmail.com>  Sun, 04 May 2014 15:00:00 -0000
+
+ros-indigo-rocon-msgs (0.7.2-0trusty) trusty; urgency=high
+
+  * rocon_device_msgs package added.
+  * Contributors: Daniel Stonier, Jihoon Lee
+
+ -- Daniel Stonier <d.stonier@gmail.com>  Tue, 15 Apr 2014 15:00:00 -0000
+
+ros-indigo-rocon-msgs (0.7.1-0trusty) trusty; urgency=high
+
+  * rocon_service -> concert_service
+  * Contributors: Daniel Stonier
+
+ -- Daniel Stonier <d.stonier@gmail.com>  Tue, 08 Apr 2014 15:00:00 -0000
+
+ros-indigo-rocon-msgs (0.7.0-0trusty) trusty; urgency=high
+
+  * major redesign focusing on the orchestration platform prototype.
+
+ -- Daniel Stonier <d.stonier@gmail.com>  Fri, 28 Mar 2014 15:00:00 -0000
+
+ros-indigo-rocon-msgs (0.6.0-0trusty) trusty; urgency=high
+
+  * removing demo messages.
+
+ -- Daniel Stonier <d.stonier@gmail.com>  Wed, 07 Aug 2013 09:58:00 -0000
+
+ros-indigo-rocon-msgs (0.5.0-0trusty) trusty; urgency=high
+
+  * adding buildtool depend
+  * adding cmake for meta pkg
+
+ -- Daniel Stonier <d.stonier@gmail.com>  Sun, 26 May 2013 15:00:00 -0000
+
+ros-indigo-rocon-msgs (0.3.0-0trusty) trusty; urgency=high
+
+  * update jihoon's email
+
+ -- Daniel Stonier <d.stonier@gmail.com>  Mon, 04 Feb 2013 15:00:00 -0000
+
+ros-indigo-rocon-msgs (0.2.1-0trusty) trusty; urgency=high
+
+  * refactoring app->rapp.
+  * added maintainers.
+  * catkin metapackage.
+
+ -- Daniel Stonier <d.stonier@gmail.com>  Wed, 30 Jan 2013 15:00:00 -0000
+
+
