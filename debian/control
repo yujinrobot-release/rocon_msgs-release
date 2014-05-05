@@ -1,0 +1,12 @@
+Source: ros-indigo-concert-msgs
+Section: misc
+Priority: extra
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-indigo-catkin, ros-indigo-gateway-msgs, ros-indigo-message-generation, ros-indigo-rocon-app-manager-msgs, ros-indigo-rocon-std-msgs, ros-indigo-std-msgs, ros-indigo-uuid-msgs
+Homepage: http://www.ros.org/wiki/concert_msgs
+Standards-Version: 3.9.2
+
+Package: ros-indigo-concert-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-gateway-msgs, ros-indigo-message-runtime, ros-indigo-rocon-app-manager-msgs, ros-indigo-rocon-std-msgs, ros-indigo-std-msgs, ros-indigo-uuid-msgs
+Description: Shared communication types for the concert framework.
