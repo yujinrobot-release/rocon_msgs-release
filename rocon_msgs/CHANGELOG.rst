@@ -1,6 +1,9 @@
 Changelog
 =========
 
+0.7.6 (2014-08-25)
+------------------
+
 0.7.5 (2014-05-05)
 ------------------
 * graveyarding rocon_annotation_msgs (no longer used).
