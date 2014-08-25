@@ -1,6 +1,6 @@
 <package>
   <name>concert_msgs</name>
-  <version>0.7.5</version>
+  <version>0.7.6</version>
   <description>
     Shared communication types for the concert framework.
   </description>
@@ -30,5 +30,8 @@
   <run_depend>rocon_std_msgs</run_depend>
   <run_depend>std_msgs</run_depend>
   <run_depend>uuid_msgs</run_depend>
-  
+
+  <export>
+    <architecture_independent/>
+  </export>
 </package>
