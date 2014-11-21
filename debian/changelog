@@ -1,0 +1,39 @@
+ros-indigo-rocon-std-msgs (0.7.8-0saucy) saucy; urgency=high
+
+  * strings for os
+  * add gazebo robot type for export
+  * Contributors: Jihoon Lee
+
+ -- Daniel Stonier <d.stonier@gmail.com>  Thu, 20 Nov 2014 15:00:00 -0000
+
+ros-indigo-rocon-std-msgs (0.7.6-0saucy) saucy; urgency=high
+
+  * Export architecture_independent flag in package.xml
+  * rocon_std_msgs: error: missing build_depend on 'genmsg'
+    rocon_std_msgs: error: unconfigured build_depend on 'message_generation'
+    rocon_std_msgs: error: unconfigured build_depend on 'uuid_msgs'
+  * Contributors: Jihoon Lee, Scott K Logan
+
+ -- Daniel Stonier <d.stonier@gmail.com>  Sun, 24 Aug 2014 15:00:00 -0000
+
+ros-indigo-rocon-std-msgs (0.7.1-0saucy) saucy; urgency=high
+
+  * igloo -> indigo
+  * rocon_service -> concert_service
+  * Contributors: Daniel Stonier
+
+ -- Daniel Stonier <d.stonier@gmail.com>  Tue, 08 Apr 2014 15:00:00 -0000
+
+ros-indigo-rocon-std-msgs (0.7.0-0saucy) saucy; urgency=high
+
+  * major redesign focusing on the orchestration platform prototype.
+
+ -- Daniel Stonier <d.stonier@gmail.com>  Fri, 28 Mar 2014 15:00:00 -0000
+
+ros-indigo-rocon-std-msgs (0.6.3-0saucy) saucy; urgency=high
+
+  * rocon_std_msgs centralises some app manager messages for sharing.
+
+ -- Daniel Stonier <d.stonier@gmail.com>  Tue, 29 Oct 2013 15:00:00 -0000
+
+
