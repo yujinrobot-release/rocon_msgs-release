@@ -1,6 +1,9 @@
 Changelog
 =========
 
+0.7.9 (2015-02-09)
+------------------
+
 0.7.8 (2014-11-21)
 ------------------
 * new error code for stopping a rapp that is not listed.
