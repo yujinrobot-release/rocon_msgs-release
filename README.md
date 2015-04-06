@@ -1,3 +1,35 @@
+## rocon_msgs (indigo) - 0.7.10-0
+
+The packages in the `rocon_msgs` repository were released into the `indigo` distro by running `/usr/bin/bloom-release rocon_msgs -t indigo -r indigo` on `Mon, 06 Apr 2015 09:34:55 -0000`
+
+These packages were released:
+- `concert_msgs`
+- `concert_service_msgs`
+- `gateway_msgs`
+- `rocon_app_manager_msgs`
+- `rocon_device_msgs`
+- `rocon_interaction_msgs`
+- `rocon_msgs`
+- `rocon_service_pair_msgs`
+- `rocon_std_msgs`
+- `rocon_tutorial_msgs`
+- `scheduler_msgs`
+
+Version of package(s) in repository `rocon_msgs`:
+- upstream repository: http://github.com/robotics-in-concert/rocon_msgs.git
+- release repository: https://github.com/yujinrobot-release/rocon_msgs-release.git
+- rosdistro version: `0.7.9-0`
+- old version: `0.7.9-0`
+- new version: `0.7.10-0`
+
+Versions of tools used:
+- bloom version: `0.5.19`
+- catkin_pkg version: `0.2.8`
+- rosdep version: `0.11.2`
+- rosdistro version: `0.4.2`
+- vcstools version: `0.1.36`
+
+
 ## rocon_msgs (indigo) - 0.7.9-0
 
 The packages in the `rocon_msgs` repository were released into the `indigo` distro by running `/usr/bin/bloom-release rocon_msgs -t indigo -r indigo` on `Mon, 09 Feb 2015 08:02:54 -0000`
