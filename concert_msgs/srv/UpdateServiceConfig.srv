@@ -1,4 +1,0 @@
-ServiceProfile service_profile
----
-bool success
-string error_message
