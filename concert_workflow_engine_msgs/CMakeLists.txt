@@ -3,52 +3,34 @@
 ##############################################################################
 
 cmake_minimum_required(VERSION 2.8.3)
-project(rocon_app_manager_msgs)
+project(concert_workflow_engine_msgs)
 
 ##############################################################################
 # Dependencies
 ##############################################################################
 
-find_package(catkin REQUIRED COMPONENTS 
-    message_generation
-    rocon_std_msgs
-    rocon_service_pair_msgs
-    )
+set(${PROJECT_NAME}_MSG_DEPENDENCIES
+    std_msgs)
+
+find_package(catkin REQUIRED
+  COMPONENTS message_generation ${${PROJECT_NAME}_MSG_DEPENDENCIES})
 
 ##############################################################################
-# Messgaes
+# Messages
 ##############################################################################
 
 add_message_files(
   DIRECTORY msg
   FILES
-  Rapp.msg
-  RappList.msg
-  Constants.msg
-  ErrorCodes.msg
-  IncompatibleRappList.msg
-  PublicInterface.msg
-  PublishedInterface.msg
-  Status.msg
-)
+  EnableWorkflows.msg
+  Workflow.msg
+  WorkflowsStatus.msg
+  )
 
-add_service_files(
-  DIRECTORY srv
-  FILES
-  GetRappList.srv
-  Init.srv
-  Invite.srv
-  StartRapp.srv
-  StopRapp.srv
-)
-
-generate_messages(DEPENDENCIES rocon_std_msgs)
+generate_messages(DEPENDENCIES ${${PROJECT_NAME}_MSG_DEPENDENCIES})
 
 ##############################################################################
 # Package
 ##############################################################################
 
-catkin_package(CATKIN_DEPENDS 
-    message_runtime
-    rocon_std_msgs
-)
+catkin_package(CATKIN_DEPENDS message_runtime ${${PROJECT_NAME}_MSG_DEPENDENCIES})
