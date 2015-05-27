@@ -1,6 +1,9 @@
 Changelog
 =========
 
+0.7.11 (2015-05-27)
+-------------------
+
 0.7.10 (2015-04-06)
 -------------------
 * to support param in software https://github.com/robotics-in-concert/rocon_concert/issues/279
