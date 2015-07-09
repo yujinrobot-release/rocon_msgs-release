@@ -1,0 +1,46 @@
+ros-indigo-rocon-tutorial-msgs (0.7.11-1trusty) trusty; urgency=high
+
+
+
+ -- Daniel Stonier <d.stonier@gmail.com>  Tue, 26 May 2015 15:00:00 -0000
+
+ros-indigo-rocon-tutorial-msgs (0.7.10-1trusty) trusty; urgency=high
+
+
+
+ -- Daniel Stonier <d.stonier@gmail.com>  Sun, 05 Apr 2015 15:00:00 -0000
+
+ros-indigo-rocon-tutorial-msgs (0.7.9-1trusty) trusty; urgency=high
+
+
+
+ -- Daniel Stonier <d.stonier@gmail.com>  Sun, 08 Feb 2015 15:00:00 -0000
+
+ros-indigo-rocon-tutorial-msgs (0.7.8-1trusty) trusty; urgency=high
+
+
+
+ -- Daniel Stonier <d.stonier@gmail.com>  Thu, 20 Nov 2014 15:00:00 -0000
+
+ros-indigo-rocon-tutorial-msgs (0.7.6-1trusty) trusty; urgency=high
+
+  * Export architecture_independent flag in package.xml
+  * Contributors: Scott K Logan
+
+ -- Daniel Stonier <d.stonier@gmail.com>  Sun, 24 Aug 2014 15:00:00 -0000
+
+ros-indigo-rocon-tutorial-msgs (0.7.1-1trusty) trusty; urgency=high
+
+  * moved tutorial messages to service messages.
+  * turtlesim v2 messages.
+  * Contributors: Daniel Stonier
+
+ -- Daniel Stonier <d.stonier@gmail.com>  Tue, 08 Apr 2014 15:00:00 -0000
+
+ros-indigo-rocon-tutorial-msgs (0.7.0-1trusty) trusty; urgency=high
+
+  * first release of the rocon tutorial messages into their own package
+
+ -- Daniel Stonier <d.stonier@gmail.com>  Fri, 28 Mar 2014 15:00:00 -0000
+
+
