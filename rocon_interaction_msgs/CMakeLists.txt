@@ -9,8 +9,8 @@ project(rocon_interaction_msgs)
 # Dependencies
 ##############################################################################
 
-find_package(catkin REQUIRED COMPONENTS 
-    message_generation 
+find_package(catkin REQUIRED COMPONENTS
+    message_generation
     rocon_std_msgs
     uuid_msgs
 )
@@ -26,8 +26,8 @@ add_message_files(
   Interaction.msg
   InteractiveClient.msg
   InteractiveClients.msg
-  Pair.msg
   Pairing.msg
+  PairingStatus.msg
   RemoconStatus.msg
   Strings.msg
 )
@@ -37,9 +37,11 @@ add_service_files(
   FILES
   GetInteraction.srv
   GetInteractions.srv
+  GetPairings.srv
   RequestInteraction.srv
   SetInteractions.srv
-  GetRoles.srv
+  StartPairing.srv
+  StopPairing.srv
 )
 
 generate_messages(DEPENDENCIES rocon_std_msgs)
