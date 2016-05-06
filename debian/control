@@ -1,0 +1,12 @@
+Source: ros-kinetic-rocon-app-manager-msgs
+Section: misc
+Priority: extra
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-message-generation, ros-kinetic-rocon-service-pair-msgs, ros-kinetic-rocon-std-msgs
+Homepage: http://www.ros.org/wiki/rocon_app_manager_msgs
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-rocon-app-manager-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-message-runtime, ros-kinetic-rocon-service-pair-msgs, ros-kinetic-rocon-std-msgs
+Description: Messages used by the platform app manager.
