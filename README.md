@@ -1,3 +1,38 @@
+## rocon_msgs (kinetic) - 0.9.0-1
+
+The packages in the `rocon_msgs` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release --edit-track --track kinetic --rosdistro kinetic rocon_msgs` on `Wed, 12 Oct 2016 01:32:30 -0000`
+
+These packages were released:
+- `concert_msgs`
+- `concert_service_msgs`
+- `concert_workflow_engine_msgs`
+- `gateway_msgs`
+- `rocon_app_manager_msgs`
+- `rocon_device_msgs`
+- `rocon_interaction_msgs`
+- `rocon_msgs`
+- `rocon_service_pair_msgs`
+- `rocon_std_msgs`
+- `rocon_tutorial_msgs`
+- `scheduler_msgs`
+
+Version of package(s) in repository `rocon_msgs`:
+
+- upstream repository: http://github.com/robotics-in-concert/rocon_msgs.git
+- release repository: https://github.com/yujinrobot-release/rocon_msgs-release.git
+- rosdistro version: `0.9.0-0`
+- old version: `0.9.0-0`
+- new version: `0.9.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.5.22`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.11.5`
+- rosdistro version: `0.4.7`
+- vcstools version: `0.1.38`
+
+
 ## rocon_msgs (kinetic) - 0.9.0-0
 
 The packages in the `rocon_msgs` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release --track kinetic --rosdistro kinetic rocon_msgs` on `Fri, 06 May 2016 00:25:07 -0000`
