@@ -1,0 +1,12 @@
+Source: ros-kinetic-rocon-tutorial-msgs
+Section: misc
+Priority: extra
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-message-generation, ros-kinetic-rocon-service-pair-msgs
+Homepage: http://www.ros.org/wiki/rocon_tutorial_msgs
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-rocon-tutorial-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-message-runtime, ros-kinetic-rocon-service-pair-msgs
+Description: Messages used by rocon tutorials.
