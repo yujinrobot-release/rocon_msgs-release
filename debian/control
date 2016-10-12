@@ -1,0 +1,12 @@
+Source: ros-kinetic-concert-msgs
+Section: misc
+Priority: extra
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-gateway-msgs, ros-kinetic-message-generation, ros-kinetic-rocon-app-manager-msgs, ros-kinetic-rocon-std-msgs, ros-kinetic-std-msgs, ros-kinetic-uuid-msgs
+Homepage: http://www.ros.org/wiki/concert_msgs
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-concert-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-gateway-msgs, ros-kinetic-message-runtime, ros-kinetic-rocon-app-manager-msgs, ros-kinetic-rocon-std-msgs, ros-kinetic-std-msgs, ros-kinetic-uuid-msgs
+Description: Shared communication types for the concert framework.
