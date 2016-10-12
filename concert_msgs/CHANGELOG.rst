@@ -1,10 +1,8 @@
 Changelog
 =========
 
-0.8.0 (2015-08-18)
-------------------
-* conductor now using fewer states, messages updated to match
-* platform info deprecated, using master info now
+0.7.12 (2015-07-09)
+-------------------
 
 0.7.11 (2015-05-27)
 -------------------
