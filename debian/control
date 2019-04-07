@@ -1,0 +1,12 @@
+Source: ros-melodic-rocon-tutorial-msgs
+Section: misc
+Priority: extra
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-message-generation, ros-melodic-rocon-service-pair-msgs
+Homepage: http://www.ros.org/wiki/rocon_tutorial_msgs
+Standards-Version: 3.9.2
+
+Package: ros-melodic-rocon-tutorial-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-message-runtime, ros-melodic-rocon-service-pair-msgs
+Description: Messages used by rocon tutorials.
