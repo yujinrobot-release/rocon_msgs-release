@@ -1,0 +1,12 @@
+Source: ros-melodic-concert-msgs
+Section: misc
+Priority: extra
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-gateway-msgs, ros-melodic-message-generation, ros-melodic-rocon-app-manager-msgs, ros-melodic-rocon-std-msgs, ros-melodic-std-msgs, ros-melodic-uuid-msgs
+Homepage: http://www.ros.org/wiki/concert_msgs
+Standards-Version: 3.9.2
+
+Package: ros-melodic-concert-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-gateway-msgs, ros-melodic-message-runtime, ros-melodic-rocon-app-manager-msgs, ros-melodic-rocon-std-msgs, ros-melodic-std-msgs, ros-melodic-uuid-msgs
+Description: Shared communication types for the concert framework.
