@@ -1,3 +1,38 @@
+## rocon_msgs (melodic) - 0.9.0-0
+
+The packages in the `rocon_msgs` repository were released into the `melodic` distro by running `/usr/bin/bloom-release --track melodic --rosdistro melodic rocon_msgs` on `Sun, 07 Apr 2019 03:36:36 -0000`
+
+These packages were released:
+- `concert_msgs`
+- `concert_service_msgs`
+- `concert_workflow_engine_msgs`
+- `gateway_msgs`
+- `rocon_app_manager_msgs`
+- `rocon_device_msgs`
+- `rocon_interaction_msgs`
+- `rocon_msgs`
+- `rocon_service_pair_msgs`
+- `rocon_std_msgs`
+- `rocon_tutorial_msgs`
+- `scheduler_msgs`
+
+Version of package(s) in repository `rocon_msgs`:
+
+- upstream repository: http://github.com/robotics-in-concert/rocon_msgs.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.9.0-0`
+
+Versions of tools used:
+
+- bloom version: `0.7.2`
+- catkin_pkg version: `0.4.10`
+- rosdep version: `0.15.0`
+- rosdistro version: `0.7.2`
+- vcstools version: `0.1.40`
+
+
 ## rocon_msgs (indigo) - 0.7.12-1
 
 The packages in the `rocon_msgs` repository were released into the `indigo` distro by running `/usr/bin/bloom-release --edit-track --track indigo --rosdistro indigo rocon_msgs` on `Wed, 12 Oct 2016 03:37:17 -0000`
