@@ -1,0 +1,12 @@
+Source: ros-melodic-concert-service-msgs
+Section: misc
+Priority: extra
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-message-generation, ros-melodic-rocon-service-pair-msgs, ros-melodic-rocon-std-msgs
+Homepage: http://www.ros.org/wiki/rocon_servce_msgs
+Standards-Version: 3.9.2
+
+Package: ros-melodic-concert-service-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-message-runtime, ros-melodic-rocon-service-pair-msgs, ros-melodic-rocon-std-msgs
+Description: Messages used by official rocon services.
