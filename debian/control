@@ -1,0 +1,12 @@
+Source: ros-melodic-rocon-msgs
+Section: misc
+Priority: extra
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin
+Homepage: http://www.ros.org/wiki/rocon_msgs
+Standards-Version: 3.9.2
+
+Package: ros-melodic-rocon-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-concert-msgs, ros-melodic-concert-service-msgs, ros-melodic-gateway-msgs, ros-melodic-rocon-app-manager-msgs, ros-melodic-rocon-device-msgs, ros-melodic-rocon-interaction-msgs, ros-melodic-rocon-service-pair-msgs, ros-melodic-rocon-std-msgs, ros-melodic-rocon-tutorial-msgs, ros-melodic-scheduler-msgs
+Description: Communication types (msgs/srvs/actions) for robotics in concert (aka multimaster).
